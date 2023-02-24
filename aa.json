@@ -1,0 +1,21 @@
+{
+  "@timestamp": "2023-01-25T11:16:54.717Z",
+  "level": "INFO",
+  "message": {
+    "logType": "CATEGORY_GET_BY_ID_HANDLE_REQUEST_BEGIN",
+    "data": {
+      "request": {
+        "requestVariables": {
+          "id": 1
+        },
+        "clientIp": "0:0:0:0:0:0:0:1",
+        "pathUrl": "/api/app/v1/categories/1",
+        "httpMethod": "GET"
+      }
+    },
+    "title": ""
+  },
+  "logger": "ilyes.de.categoryservice.config.aop.aspect.WithResourceLogsAspect",
+  "correlationId": "ca0b68a7-8b47-4a01-87d4-aeef1c5d8754",
+  "requestId": "83a587f0-9c0c-4894-ad93-c85615fa06f0"
+}
