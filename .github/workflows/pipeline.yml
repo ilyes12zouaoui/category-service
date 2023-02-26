@@ -30,7 +30,7 @@ jobs:
     - name: set ecr env
       run: |
         echo "IMAGE_TAG=${GITHUB_SHA::7}" >> $GITHUB_ENV
-        echo "ECR_REPOSITORY=ilyes/category-service" >> $GITHUB_ENV
+        echo "ECR_REPOSITORY=o2z9q5z9/ilyes/category-service" >> $GITHUB_ENV
         echo "ECR_REGISTRY=${{ steps.login-ecr.outputs.registry }}" >> $GITHUB_ENV
         
     - name: Build, tag, and push image to Amazon ECR
